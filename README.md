@@ -3,10 +3,11 @@
 
 实例
 for循环
-
+[code]
 <div php-each="<?php foreach ([1,2,3,4] as $a) ?>">
         <?=$a; ?>
 </div>
+[code]
 
 输出
 <div>
