@@ -33,6 +33,12 @@ if语句
 <div php-if="<?php (1==2) ?>">
   test
 </div>
+<div php-else-if="<?php (1==2) ?>">
+  test
+</div>
+<div php-else>
+  test
+</div>
 ```
 
 
